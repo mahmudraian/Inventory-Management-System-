@@ -52,7 +52,8 @@ class AuthController extends Controller
 
         return redirect()->route('login')->with('class',$class)->with('message',$message);
     }
-
+   
+    
 
 
 
